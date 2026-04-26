@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+.container-center{
+    @apply flex  w-full ;
+    position: fixed;
+    inset: 0;
+
+}
+.left-section{
+    @apply flex-1 bg-blue-700 flex flex-col justify-center text-white
+}
+.title{
+    @apply text-3xl text-white mb-6 font-bold
+}
+.left-section p{
+    @apply text-[18px] mb-6
+}
+.roles{
+    @apply flex gap-3 justify-center
+}
+.roles .role-btn{
+    @apply bg-white/20 px-6 py-3 rounded-lg text-[15px]
+}
+.role-btn span{
+    @apply flex items-center justify-center text-[18px]
+}
+.right-section{
+    @apply flex-1 flex items-center justify-center bg-gray-100
+}
+.card{
+    @apply bg-white p-8 rounded-2xl shadow-lg w-96
+}
+.main-title{
+    @apply text-2xl font-bold text-center mb-3
+}
+.sub-title{
+    @apply text-center text-gray-500 mb-6
+}
+.tabs{
+    @apply flex bg-gray-200 mb-4 p-1 rounded-lg;
+}
+.tab{
+    @apply flex-1 text-center py-2 rounded-lg text-[15px] cursor-pointer transition
+    hover:bg-blue-700 hover:text-white
+}
+.tab span{
+    @apply flex items-center justify-center text-[18px]
+}
+.input-label{
+    @apply  block mb-1 text-left 
+}
+.input{
+    @apply w-full p-3 border rounded-lg mb-3
+}
+.btn-primar{
+    @apply w-full py-3 rounded-lg bg-blue-700 text-white cursor-pointer;
+}
+
