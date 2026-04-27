@@ -1,14 +1,13 @@
 @import "tailwindcss";
 
 .container-center{
-    @apply flex  w-full min-lg:flex-row flex-col  min-lg:gap-x-10  ;
-    position: fixed;
-    inset: 0;
+    @apply flex  w-full  flex-col   h-full;
+   
 
 }
 .left-section{
-    @apply flex-1 bg-blue-700 flex flex-col justify-center text-white text-center
-    p-4
+    @apply flex bg-blue-700 flex-col justify-center text-white text-center
+    p-5
 }
 .title{
     @apply text-3xl text-white mb-6 font-bold
@@ -26,7 +25,7 @@
     @apply flex items-center justify-center text-[18px]
 }
 .right-section{
-    @apply  flex items-center justify-center my-[40px] p-4
+    @apply  flex items-center justify-center  p-4 
 }
 .card{
     @apply bg-white p-8 rounded-2xl shadow-2xl 
@@ -38,8 +37,8 @@
     @apply text-center text-gray-500 mb-6
 }
 .card .data{
-    @apply flex min-lg:flex-col flex-row items-center gap-x-5 mt-3
-    max-md:flex-col
+    @apply flex  flex-col items-center gap-x-5 mt-3
+  
 }
 .tabs{
     @apply flex bg-gray-200 mb-4 p-1 rounded-lg;
@@ -58,7 +57,7 @@
 }
 .input{
     @apply w-full py-2 px-4 border rounded-lg mb-3 focus:border-blue-700 outline-none
-
+border-gray-300
 }
 .btn-primar{
     @apply w-full py-3 rounded-lg bg-blue-700 text-white cursor-pointer mt-4;
